@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Weather Search</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text">Weather Around The World</h1>
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="countryName"type="text" class="form-control" placeholder="Enter a City Name for Weather ...">
+                <div class="input-group-append">
+                    <button id="btn"  type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <img id="img-icon"src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="showCountry">City</h1>
+            <h3><span id="temp">N/A</span>&deg;C</h3>
+            <h1 id="condition" class="lead">N/A</h1>
+        </div>
+    </div>
+    
+    <div>
+        <script src="assets/custom.js"></script>
+    </div>
+</body>
+
+</html>

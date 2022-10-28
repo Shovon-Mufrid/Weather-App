@@ -1,0 +1,10 @@
+body {
+    background: url(images/weather-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container .text{
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
